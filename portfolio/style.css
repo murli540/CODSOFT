@@ -1,0 +1,5796 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #333;
+    color: white;
+}
+
+header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #555;
+    color: white;
+    padding: 60px 40px;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    max-width: 400px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hero-img img {
+    width: 280px;
+    border-radius: 10px;
+}
+
+/* ABOUT SECTION */
+.about {
+    background-color: white;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 30px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-content img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.about-content p {
+    max-width: 400px;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+}
+
+/* SKILLS */
+.skills {
+    padding: 60px 40px;
+    background-color: #eee;
+    text-align: center;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* PROJECTS */
+.projects {
+    padding: 60px 40px;
+    background-color: white;
+    text-align: center;
+}
+
+.project-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 15px auto;
+    width: 60%;
+    border-radius: 5px;
+}
+
+/* CONTACT */
+.contact {
+    padding: 50px 40px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.contact a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+
